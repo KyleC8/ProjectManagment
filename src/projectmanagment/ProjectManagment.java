@@ -37,7 +37,6 @@ public class ProjectManagment {
                         JOptionPane.showMessageDialog(null, "Please enter a number option",
                                 "Invalid Input", JOptionPane.ERROR_MESSAGE);
                     }
-                    
                 }
                 
             }else if (menuInput.equals("2")) {
