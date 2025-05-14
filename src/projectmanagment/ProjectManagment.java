@@ -55,7 +55,7 @@ public class ProjectManagment {
 
 
     
-    public static void loadNotes() {
+    public static void notesMenu() {
         String input = "";
         while(!input.equals("3") || !input.equalsIgnoreCase("exit")) {
             input = JOptionPane.showInputDialog("Welcome to the notes menu: Enter your choice as a #:\n1. Study Note 1\n2. Study Notes 2\n3. Exit");
