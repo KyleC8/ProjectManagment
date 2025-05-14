@@ -37,7 +37,7 @@ public class Quiz {
     public String toString(){
         String output = "Quiz";
         for(int i = 0; i < questions.length; i ++){
-            output += "\nQuestion " + i + ": " + questions[i].toString();
+            output += "\n" + questions[i].toString();
         }
         return output;
     }
