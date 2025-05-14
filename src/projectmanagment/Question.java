@@ -26,7 +26,7 @@ public class Question {
     }
     
     public boolean equals(Question q){
-        return q.answer.equals(answer) && q.question.equals(question);
+        return q.answer.equals(answer);
     }
     
     public Question clone(){
