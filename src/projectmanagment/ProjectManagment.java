@@ -53,11 +53,13 @@ public class ProjectManagment {
             
             }
             else if(input.equals("3")) {
+                JOptionPane.showMessageDialog(null, "Returning to main menu");
                 return;
             
             }
             else {
-                JOptionPane.showMessageDialog(null, "Invalid Input");
+                JOptionPane.showMessageDialog(null, "Please enter a number option", 
+                        "Invalid Input", JOptionPane.ERROR_MESSAGE); 
             }
         }
     }
