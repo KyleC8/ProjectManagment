@@ -8,7 +8,31 @@ import java.util.Scanner;
 public class ProjectManagment {
     
     public static void main(String[] args) {
+        String input = "";
+        while(!input.equals("3") || !input.equalsIgnoreCase("exit")) {
+            input = JOptionPane.showInputDialog("""
+                                                Welcome to the project management study tool:Enter your choice as a #:
+                                                1. Quiz
+                                                2. Study Notes
+                                                3. Exit""");
+            
+            if(input.equals("1")) {
+            
+            }
+            else if(input.equals("2")) {
+            
+            
+            }
+            else if(input.equals("3")) {
+                JOptionPane.showMessageDialog(null, "Goodbye!");  
+                System.exit(0);
+            
+            }
+            else {
+                JOptionPane.showMessageDialog(null, "Invalid Input: Please enter the a number (Eg. 1)");  
+            }
         
+        }
     }
 
 
@@ -32,12 +56,7 @@ public class ProjectManagment {
             else {
                 JOptionPane.showMessageDialog(null, "Invalid Input");
             }
-        
-        
-        
-        
         }
-    
     }
     
     public String[] loadStudyNotes() {
