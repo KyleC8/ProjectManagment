@@ -9,29 +9,46 @@ public class ProjectManagment {
     
     public static void main(String[] args) {
         String input = "";
-        while(!input.equals("3") || !input.equalsIgnoreCase("exit")) {
-            input = JOptionPane.showInputDialog("""
-                                                Welcome to the project management study tool:Enter your choice as a #:
-                                                1. Quiz
-                                                2. Study Notes
-                                                3. Exit""");
-            
-            if(input.equals("1")) {
-            
-            }
-            else if(input.equals("2")) {
-            
-            
-            }
-            else if(input.equals("3")) {
-                JOptionPane.showMessageDialog(null, "Goodbye!");  
-                System.exit(0);
-            
-            }
-            else {
-                JOptionPane.showMessageDialog(null, "Invalid Input: Please enter the a number (Eg. 1)");  
-            }
+        boolean cont = true; 
+        boolean studyCont = true; 
+        String menuInput = ""; 
+        String studyInput = ""; 
         
+        while (cont) {
+            menuInput = JOptionPane.showInputDialog("Main Mneu\n"
+                + "1. Study Notes\n"
+                + "2. Quiz\n"
+                + "3. Exit"); 
+            
+            if (menuInput.equals("1")) {
+                while (studyCont) {
+                    studyInput = JOptionPane.showInputDialog("Study Menu\n"
+                        + "1. Topic 1\n"
+                        + "2. Topic 2\n"
+                        + "3. Exit");
+                    
+                    if (studyInput.equals("1")) {
+                        
+                    }else if (studyInput.equals("2")) {
+                        
+                    }else if (studyInput.equals("3")) {
+                        studyCont = false; 
+                    }else {
+                        JOptionPane.showMessageDialog(null, "Please enter a number option",
+                                "Invalid Input", JOptionPane.ERROR_MESSAGE);
+                    }
+                    
+                }
+                
+            }else if (menuInput.equals("2")) {
+                
+            }else if (menuInput.equals("3")) {
+                JOptionPane.showMessageDialog(null, "Good luck on your Test"); 
+                cont = false; 
+            }else {
+                JOptionPane.showMessageDialog(null, "Please enter a number option", 
+                        "Invalid Input", JOptionPane.ERROR_MESSAGE); 
+            }
         }
     }
 
@@ -86,4 +103,3 @@ public class ProjectManagment {
     
 }
     
-}
