@@ -21,23 +21,7 @@ public class ProjectManagment {
                 + "3. Exit"); 
             
             if (menuInput.equals("1")) {
-                while (studyCont) {
-                    studyInput = JOptionPane.showInputDialog("Study Menu\n"
-                        + "1. Topic 1\n"
-                        + "2. Topic 2\n"
-                        + "3. Exit");
-                    
-                    if (studyInput.equals("1")) {
-                        
-                    }else if (studyInput.equals("2")) {
-                        
-                    }else if (studyInput.equals("3")) {
-                        studyCont = false; 
-                    }else {
-                        JOptionPane.showMessageDialog(null, "Please enter a number option",
-                                "Invalid Input", JOptionPane.ERROR_MESSAGE);
-                    }
-                }
+                notesMenu();
                 
             }else if (menuInput.equals("2")) {
                 
@@ -57,7 +41,10 @@ public class ProjectManagment {
     public static void notesMenu() {
         String input = "";
         while(!input.equals("3") || !input.equalsIgnoreCase("exit")) {
-            input = JOptionPane.showInputDialog("Welcome to the notes menu: Enter your choice as a #:\n1. Study Note 1\n2. Study Notes 2\n3. Exit");
+            input = JOptionPane.showInputDialog("Study Menu\n"
+                        + "1. Topic 1\n"
+                        + "2. Topic 2\n"
+                        + "3. Exit");
             if(input.equals("1")) {
             
             }
