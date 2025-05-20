@@ -1,0 +1,21 @@
+--- Project Planning & the SDLC ---
+
+1. What is Project Management?
+Project management is the process of planning, executing, and monitoring a project to achieve specific goals. It includes managing time, resources, and scope to deliver results efficiently.
+
+2. Stages of the Software Development Life Cycle (SDLC):
+   - Planning: Define project goals and gather requirements.
+   - Analysis: Understand user needs and document specifications.
+   - Design: Develop system and software architecture.
+   - Implementation: Write and test the code.
+   - Testing: Validate the software against requirements.
+   - Maintenance: Fix bugs and update the software after release.
+
+3. The Project Charter:
+This is a document that outlines the purpose, goals, and key stakeholders of a project. It provides formal approval to begin the project.
+
+4. Creating a Schedule:
+Time management is essential in project planning. A schedule helps organize tasks and track progress. Tools like Gantt charts are often used.
+
+5. Critical Path Method:
+The critical path is the sequence of tasks that determines the shortest duration in which a project can be completed. Delays on this path delay the whole project.

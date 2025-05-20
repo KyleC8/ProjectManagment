@@ -1,0 +1,22 @@
+--- Project Management Tools & Roles ---
+
+1. Gantt Charts:
+These are bar charts used to illustrate project schedules. They show start and end dates, task durations, and dependencies.
+
+2. PERT Charts:
+PERT (Program Evaluation Review Technique) charts help visualize task sequences and identify dependencies between tasks.
+
+3. Risk Management:
+Risk management involves identifying potential issues and preparing mitigation strategies. A Risk Register documents risks, impacts, and action plans.
+
+4. Resource Planning:
+A resource plan defines all the people, tools, and materials required to complete the project. Planning helps prevent resource shortages.
+
+5. Roles in a Project:
+   - Sponsor: Provides funding and high-level approval.
+   - Stakeholder: Anyone impacted by the project.
+   - Project Manager: Oversees the team and ensures the project stays on track.
+   - Team Lead: Coordinates tasks and supports the team.
+
+6. Importance of Updates:
+Documents like the Risk Register and Project Schedule should be reviewed and updated regularly to reflect the project's actual status.
